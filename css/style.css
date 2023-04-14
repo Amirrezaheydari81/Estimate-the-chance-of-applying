@@ -1444,6 +1444,14 @@ select{
   height: 3.5rem;
 }
 
+.h-2{
+  height: 0.5rem;
+}
+
+.h-2\.5{
+  height: 0.625rem;
+}
+
 .h-2\/5{
   height: 40%;
 }
@@ -3085,6 +3093,11 @@ select{
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
 .bg-green-500{
   --tw-bg-opacity: 1;
   background-color: rgb(45 137 126 / var(--tw-bg-opacity));
@@ -3106,6 +3119,11 @@ select{
 
 .bg-white\/30{
   background-color: rgb(255 255 255 / 0.3);
+}
+
+.bg-gray-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .decoration-slice{
@@ -3262,6 +3280,10 @@ select{
   padding: auto;
 }
 
+.p-0\.5{
+  padding: 0.125rem;
+}
+
 .\!py-0{
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -3395,6 +3417,11 @@ select{
 .py-\[5px\]{
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.py-0\.5{
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 .pb-0{
@@ -3693,6 +3720,10 @@ select{
 
 .leading-normal{
   line-height: 1.5;
+}
+
+.leading-none{
+  line-height: 1;
 }
 
 .tracking-\[-0\.00833em\]{
@@ -5450,6 +5481,11 @@ select{
     background-color: transparent;
   }
 
+  .dark\:bg-gray-700{
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  }
+
   .dark\:fill-gray-400{
     fill: #9ca3af;
   }
@@ -5589,19 +5625,14 @@ select{
     line-height: 1.75rem;
   }
 
-  .sm\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .sm\:underline{
     text-decoration-line: underline;
   }
 }
 
 @media (min-width: 768px){
-  .md\:max-w-2xl{
-    max-width: 42rem;
+  .md\:max-w-3xl{
+    max-width: 48rem;
   }
 
   .md\:max-w-4xl{
@@ -5612,10 +5643,6 @@ select{
     max-width: 720px;
   }
 
-  .md\:max-w-3xl{
-    max-width: 48rem;
-  }
-
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -5623,11 +5650,6 @@ select{
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
 
