@@ -12,18 +12,21 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      blue: colors.blue,
       red: {
         900: '#A31E1E'
       },
       green: {
-        900:'rgb(32,97,89)',
-        500:'#2D897E'
+        900: '#206159', //173, 50%, 25%
+        500: '#2D897E', //173, 51%, 36%
+        200: '#65CDC0',//173, 51%, 60%
       },
     },
     fontFamily: {
       'sans': ['Gilroy', 'ui-sans-serif', 'system-ui'],
     },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),

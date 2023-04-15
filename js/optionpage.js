@@ -22,6 +22,8 @@ q17 = document.querySelector("#q17 select");
 q18 = document.querySelector("#q18 select");
 q19 = document.querySelector("#q19 select");
 q20 = document.querySelector("#q20 select");
+let DivnumRate = document.getElementById("DivnumRate");
+let numRate = document.getElementById("numRate");
 //
 let calculateBtn = document.getElementById('Calculate');
 //
@@ -160,6 +162,13 @@ calculateBtn.addEventListener("click", function () {
             6,
         ]);
         console.log("Score " + score.toFixed(1) + "%");
+        DivnumRate.classList.remove("hidden");
+        // DivnumRate.classList.add("block");
+        console.log(score);
+        let numRateScore = Math.round(score);
+        console.log(numRateScore);
+        numRate.style.cssText = `--value: ${numRateScore}`;
+        numRate.innerText = numRateScore + "%";
     } else if (education.value == 1) {
         // Master
         console.log("Master");
@@ -384,9 +393,9 @@ calculateBtn.addEventListener("click", function () {
             6
         ]);
         //
+
         console.log("Score " + score.toFixed(1) + "%");
     } else {
         console.error(Error)
     }
-
 });
