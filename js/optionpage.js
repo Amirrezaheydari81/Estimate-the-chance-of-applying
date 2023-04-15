@@ -81,17 +81,17 @@ calculateBtn.addEventListener("click", function () {
             0.8,
             1.0,
         ]);
-        SetpPercentageValue(q6.value, 6, [0.3,
+        SetpPercentageValue(q6.value, 4, [0.3,
             0.5,
             0.8,
             1.0,
         ]);
-        SetpPercentageValue(q7.value, 6, [0.3,
+        SetpPercentageValue(q7.value, 4, [0.3,
             0.5,
             0.8,
             1.0,
         ]);
-        SetpPercentageValue(q8.value, 6, [0.5,
+        SetpPercentageValue(q8.value, 4, [0.5,
             1.0,
             1.5,
             2.0,
@@ -159,17 +159,234 @@ calculateBtn.addEventListener("click", function () {
         SetpPercentageValue(q20.value, 2, [3,
             6,
         ]);
-        console.log(score);
+        console.log("Score " + score.toFixed(1) + "%");
     } else if (education.value == 1) {
+        // Master
         console.log("Master");
-        // Masters
-        console.log("Masters");
-        console.log("---- Score Number ----");
+        SetpPercentageValue(q1.value, 4, [6.3,
+            12.5,
+            18.8,
+            25.0
+        ]);
+        SetpPercentageValue(q2.value, 7, [2.1,
+            4.3,
+            6.4,
+            8.6,
+            10.7,
+            12.9,
+            15.0
+        ]);
+        SetpPercentageValue(q3.value, 7, [0.7,
+            1.4,
+            2.1,
+            2.9,
+            3.6,
+            4.3,
+            5.0
+        ]);
+        SetpPercentageValue(q4.value, 3, [2.3,
+            4.7,
+            7.0
+        ]);
+        SetpPercentageValue(q5.value, 4, [1.5,
+            3.0,
+            4.5,
+            6.0
+        ]);
+        SetpPercentageValue(q6.value, 4, [0.5,
+            1.0,
+            1.5,
+            2.0
+        ]);
+        SetpPercentageValue(q7.value, 4, [0.8,
+            1.5,
+            2.3,
+            3.0
+        ]);
+        SetpPercentageValue(q8.value, 4, [0.5,
+            1.0,
+            1.5,
+            2.0
+        ]);
+        SetpPercentageValue(q9.value, 2, [3.0,
+            1.5
+        ]);
+        SetpPercentageValue(q10.value, 12, [0.6,
+            1.2,
+            1.8,
+            2.3,
+            2.9,
+            3.5,
+            4.1,
+            4.7,
+            5.3,
+            5.8,
+            6.4,
+            7.0
+        ]);
+        SetpPercentageValue(q11.value, 4, [0.5,
+            1.0,
+            1.5,
+            2.0
+        ]);
+        SetpPercentageValue(q12.value, 4, [0.3,
+            0.5,
+            0.8,
+            1.0
+        ]);
+        SetpPercentageValue(q13.value, 3, [0.3,
+            0.7,
+            1.0
+        ]);
+        SetpPercentageValue(q14.value, 3, [0.3,
+            0.7,
+            1.0
+        ]);
+        SetpPercentageValue(q15.value, 4, [0.3,
+            0.5,
+            0.8,
+            1.0
+        ]);
+        SetpPercentageValue(q16.value, 5, [1,
+            2,
+            3,
+            4,
+            5
+        ]);
+        SetpPercentageValue(q17.value, 6, [0.8,
+            1.7,
+            2.5,
+            3.3,
+            4.2,
+            5.0
+        ]);
+        SetpPercentageValue(q18.value, 3, [1,
+            2,
+            3
+        ]);
+        SetpPercentageValue(q19.value, 3, [3,
+            2,
+            1
+        ]);
+        SetpPercentageValue(q20.value, 2, [2,
+            3,
+        ]);
         console.log("Score " + score.toFixed(1) + "%");
     } else if (education.value == 2) {
         console.log("phD");
-        console.log("---- Score Number ----");
+        // phD
+        SetpPercentageValue(q1.value, 4, [4.5,
+            9.0,
+            13.5,
+            18.0
+        ]);
+        SetpPercentageValue(q2.value, 7, [1.4,
+            2.9,
+            4.3,
+            5.7,
+            7.1,
+            8.6,
+            10.0
+        ]);
+        SetpPercentageValue(q3.value, 7, [1.1,
+            2.3,
+            3.4,
+            4.6,
+            5.7,
+            6.9,
+            8.0
+        ]);
+        SetpPercentageValue(q4.value, 3, [2.0,
+            4.0,
+            6.0
+        ]);
+        SetpPercentageValue(q5.value, 4, [2.5,
+            5.0,
+            7.5,
+            10.0
+        ]);
+        SetpPercentageValue(q6.value, 4, [1.3,
+            2.5,
+            3.8,
+            5.0
+        ]);
+        SetpPercentageValue(q7.value, 4, [1.8,
+            3.5,
+            5.3,
+            7.0
+        ]);
+        SetpPercentageValue(q8.value, 4, [0.5,
+            1.0,
+            1.5,
+            2.0
+        ]);
+        SetpPercentageValue(q9.value, 2, [5.0,
+            2.5
+        ]);
+        SetpPercentageValue(q10.value, 12, [0.5,
+            1.0,
+            1.5,
+            2.0,
+            2.5,
+            3.0,
+            3.5,
+            4.0,
+            4.5,
+            5.0,
+            5.5,
+            6.0
+        ]);
+        SetpPercentageValue(q11.value, 4, [0.3,
+            0.5,
+            0.8,
+            1.0
+        ]);
+        SetpPercentageValue(q12.value, 4, [0.3,
+            0.5,
+            0.8,
+            1.0
+        ]);
+        SetpPercentageValue(q13.value, 3, [0.3,
+            0.7,
+            1.0
+        ]);
+        SetpPercentageValue(q14.value, 3, [0.3,
+            0.7,
+            1.0
+        ]);
+        SetpPercentageValue(q15.value, 4, [0.3,
+            0.5,
+            0.8,
+            1.0
+        ]);
+        SetpPercentageValue(q16.value, 5, [1,
+            1,
+            2,
+            2,
+            3
+        ]);
+        SetpPercentageValue(q17.value, 6, [0.8,
+            1.7,
+            2.5,
+            3.3,
+            4.2,
+            5.0
+        ]);
+        SetpPercentageValue(q18.value, 3, [0,
+            1,
+            1
+        ]);
+        SetpPercentageValue(q19.value, 3, [3,
+            2,
+            1
+        ]);
+        SetpPercentageValue(q20.value, 2, [3,
+            6
+        ]);
+        //
         console.log("Score " + score.toFixed(1) + "%");
-    };
+    } else {
+        console.error(Error)
+    }
 
 });
