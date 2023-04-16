@@ -22,9 +22,9 @@
     /* //173, 50%, 25%
 //173, 51%, 36%
 //173, 51%, 60% */
-    --a: 173, 51%, 36%;
-    --ac: 0, 0%, 0%;
-    --af: 173, 50%, 25%;
+    --a: 0, 0%, 100%;
+    --ac: 173, 50%, 25%;
+    --af: 0, 0%, 100%;
     /*line*/
 }
 
@@ -69,6 +69,7 @@
 }
 
 .radial-progress:before {
+    border: solid 2px hsl(var(--ac));
     background: radial-gradient(farthest-side, currentColor 98%, #0000)top/var(--thickness)var(--thickness)no-repeat, conic-gradient(currentColor calc(var(--value)*1%), #0000 0);
     -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));
     -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));

@@ -13,7 +13,7 @@
 <!-- shadow-lg shadow-gray-400 -->
 
 <body class="mx-auto bg-white pt-5 justify-center items-center self-center">
-    <div class="md:max-w-3xl mx-auto sm:max-w-xs">
+    <div class="md:max-w-4xl mx-auto sm:max-w-xs">
 
         <!-- <div class="w-full bg-gray-400 rounded-full sticky top-0 ">
             <div id="progressbar"
@@ -28,16 +28,19 @@
             <!-- question -->
             <div class="flex flex-row my-7">
                 <!--  -->
+<!-- modal -->
+
+<!-- modal -->
                 <!--  -->
                 <div class="basis-full mx-auto text-center">
                     <div class="relative">
-                        <ul class="relative flex flex-row  list-none flex-wrap rounded-xl bg-green-500 p-1"
+                        <ul class="relative flex flex-row  list-none flex-wrap rounded-xl bg-green-500 p-1 items-center"
                             data-tabs="tabs" role="list">
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="true" role="tab" aria-selected="true"
                                     aria-controls="Choose">
-                                    <span class="md:px-5 px-2 flex items-center">Choose
+                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Choose
                                         <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
@@ -50,7 +53,7 @@
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="" role="tab" aria-selected="true"
                                     aria-controls="Educational-tab">
-                                    <span class="md:px-5 px-2 flex items-center">
+                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">
                                         Educational
                                         <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,8 +67,8 @@
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Language">
-                                    <span class="md:px-5 px-2 flex items-center">Language
-                                        <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
+                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Language
+                                        <svg class="md:w-5 md:h-5 sm:w-4 sm:h-4 p-0 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
                                                 stroke-linecap="round" stroke-linejoin="round" />
@@ -76,7 +79,7 @@
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Research">
-                                    <span class="md:px-5 px-2 flex items-center">Skills
+                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Skills
                                         <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
@@ -88,7 +91,7 @@
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Intended">
-                                    <span class="md:px-5 px-2">University</span>
+                                    <span class="md:px-5 px-2 md:text-base sm:text-sm">University</span>
                                 </a>
                             </li>
                         </ul>
@@ -113,7 +116,7 @@
                             <div class="hidden opacity-0" id="Educational-tab" role="tabpanel">
                                 <div class="flex flex-row  my-7 flex-wrap">
                                     <!-- 1 -->
-                                    <div id="q1" class="basis-1/2 px-4 mb-3">
+                                    <div id="q1" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries"
                                             class="block mb-2 text-xs font-medium bg-white">GPA</label>
                                         <select
@@ -126,7 +129,7 @@
                                         </select>
                                     </div>
                                     <!-- 4 -->
-                                    <div id="q4" class="basis-1/2 px-4 mb-3">
+                                    <div id="q4" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Ranking
                                             of your
                                             highschool</label>
@@ -140,7 +143,7 @@
                                         </select>
                                     </div>
                                     <!--10  -->
-                                    <div id="q10" class="basis-1/2 px-4 mb-3">
+                                    <div id="q10" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Field of
                                             study?</label>
                                         <select
@@ -162,7 +165,7 @@
                                         </select>
                                     </div>
                                     <!-- 11 -->
-                                    <div id="q11" class="basis-1/2 px-4 mb-3">
+                                    <div id="q11" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">How much
                                             is the study gap
                                             between your last degree and now?</label>
@@ -175,7 +178,7 @@
                                         </select>
                                     </div>
                                     <!-- 15 -->
-                                    <div id="q15" class="basis-1/2 px-4 mb-3">
+                                    <div id="q15" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">
                                             Number of references from high school teachers or employers?
                                         </label>
@@ -192,7 +195,7 @@
                             <div class="hidden opacity-0" id="Language" role="tabpanel">
                                 <div class="flex flex-row  my-7 flex-wrap">
                                     <!-- 2 -->
-                                    <div id="q2" class="basis-1/2 px-4 mb-3">
+                                    <div id="q2" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">First
                                             Language test (IELTS,
                                             TOEFL , etc.)</label>
@@ -208,7 +211,7 @@
                                         </select>
                                     </div>
                                     <!--3  -->
-                                    <div id="q3" class="basis-1/2 px-4 mb-3">
+                                    <div id="q3" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Second
                                             language test (GRE,
                                             GMAT, etc.)</label>
@@ -224,7 +227,7 @@
                                         </select>
                                     </div>
                                     <!-- 12 -->
-                                    <div id="q12" class="basis-1/2 px-4 mb-3">
+                                    <div id="q12" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">How many
                                             years have you
                                             worked ?</label>
@@ -237,7 +240,7 @@
                                         </select>
                                     </div>
                                     <!-- 13 -->
-                                    <div id="q13" class="basis-1/2 px-4 mb-3">
+                                    <div id="q13" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">How much
                                             is
                                             your proficiency
@@ -250,7 +253,7 @@
                                         </select>
                                     </div>
                                     <!-- 14 -->
-                                    <div id="q14" class="basis-1/2 px-4 mb-3">
+                                    <div id="q14" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">How much
                                             is
                                             your skill level
@@ -263,7 +266,7 @@
                                         </select>
                                     </div>
                                     <!-- 18 -->
-                                    <div id="q18" class="basis-1/2 px-4 mb-3">
+                                    <div id="q18" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
                                             related academic or
                                             professional certificates?</label>
@@ -280,7 +283,7 @@
                             <div class="hidden opacity-0" id="Research" role="tabpanel">
                                 <div class="flex flex-row  my-7 flex-wrap">
                                     <!-- 5 -->
-                                    <div id="q5" class="basis-1/2 px-4 mb-3">
+                                    <div id="q5" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
                                             journal papers you
                                             have published or submitted?</label>
@@ -296,7 +299,7 @@
                                         </select>
                                     </div>
                                     <!-- 6 -->
-                                    <div id="q6" class="basis-1/2 px-4 mb-3">
+                                    <div id="q6" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
                                             conference papers
                                             you have published or submitted?</label>
@@ -312,7 +315,7 @@
                                         </select>
                                     </div>
                                     <!-- 7 -->
-                                    <div id="q7" class="basis-1/2 px-4 mb-3">
+                                    <div id="q7" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
                                             citations you have
                                             on your academic papers?</label>
@@ -325,7 +328,7 @@
                                         </select>
                                     </div>
                                     <!-- 8 -->
-                                    <div id="q8" class="basis-1/2 px-4 mb-3">
+                                    <div id="q8" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
                                             patent?</label>
                                         <select
@@ -338,7 +341,7 @@
                                         </select>
                                     </div>
                                     <!-- 9 -->
-                                    <div id="q9" class="basis-1/2 px-4 mb-3">
+                                    <div id="q9" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Do you
                                             have any international
                                             achievements?</label>
@@ -354,7 +357,7 @@
                             <div class="hidden opacity-0" id="Intended" role="tabpanel">
                                 <div class="flex flex-row  my-7 flex-wrap">
                                     <!-- 16 -->
-                                    <div id="q16" class="basis-1/2 px-4 mb-3">
+                                    <div id="q16" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Where is
                                             the university that
                                             you are applying located?</label>
@@ -369,7 +372,7 @@
                                         </select>
                                     </div>
                                     <!-- 17 -->
-                                    <div id="q17" class="basis-1/2 px-4 mb-3">
+                                    <div id="q17" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Ranking
                                             of the university you
                                             are applying for?</label>
@@ -386,7 +389,7 @@
                                     </div>
 
                                     <!-- 19 -->
-                                    <div id="q19" class="basis-1/2 px-4 mb-3">
+                                    <div id="q19" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Is the
                                             program relevant to
                                             your previous academic degree?</label>
@@ -398,7 +401,7 @@
                                         </select>
                                     </div>
                                     <!-- 20 -->
-                                    <div id="q20" class="basis-1/2 px-4 mb-3">
+                                    <div id="q20" class="md:basis-1/2 sm:basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Are you
                                             repeating your
                                             previous degree?</label>
@@ -416,8 +419,8 @@
                                         </div>
                                         <div class="basis-full px-4 mb-3 hidden" id="DivnumRate">
                                             <div id="numRate"
-                                                class="radial-progress bg-accent text-accent-content border-4 border-accent"
-                                                style="--size:7rem; ">70%</div>
+                                                class="radial-progress bg-accent text-accent-content border-4 border-accent shadow-2xl"
+                                                style="--size:7rem; ">0%</div>
                                         </div>
                                     </div>
                                     <!-- result -->
