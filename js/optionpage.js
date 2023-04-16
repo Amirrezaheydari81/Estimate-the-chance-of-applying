@@ -24,6 +24,8 @@ q19 = document.querySelector("#q19 select");
 q20 = document.querySelector("#q20 select");
 let DivnumRate = document.getElementById("DivnumRate");
 let numRate = document.getElementById("numRate");
+let modal = document.getElementById("modal");
+let Close = document.getElementById("Close");
 //
 let calculateBtn = document.getElementById('Calculate');
 //
@@ -162,13 +164,20 @@ calculateBtn.addEventListener("click", function () {
             6,
         ]);
         console.log("Score " + score.toFixed(1) + "%");
-        DivnumRate.classList.remove("hidden");
+        // DivnumRate.classList.remove("hidden");
         // DivnumRate.classList.add("block");
         console.log(score);
         let numRateScore = Math.round(score);
         console.log(numRateScore);
         numRate.style.cssText = `--value: ${numRateScore}`;
         numRate.innerText = numRateScore + "%";
+        modal.classList.remove("hidden");
+        modal.classList.add("block");
+        Close.addEventListener("click", function () {
+            modal.classList.remove("block");
+            modal.classList.add("hidden");
+        });
+
     } else if (education.value == 1) {
         // Master
         console.log("Master");
@@ -399,3 +408,36 @@ calculateBtn.addEventListener("click", function () {
         console.error(Error)
     }
 });
+// let Choose_tab = document.getElementById("Choose");
+// let Educational_tab = document.getElementById("Educational");
+// let Language_tab = document.getElementById("Language");
+// let Intended_tab = document.getElementById("Intended");
+// let Skills_tab = document.getElementById("Skills");
+// let tabs = document.querySelectorAll("#tabs li");
+let next = document.getElementById("next");
+// var activeTab = document.querySelector('#tabs li.active').value;
+// console.log(activeTab);
+next.classList.add("hidden", "opacity-0");
+// function chekTab(id) {
+//     for (let i = 0; i < tabs.length; i++) {
+//         let tab = tabs[i];
+//         if (tab.getAttribute("id") != id.value) {
+//             id.classList.add("hidden", "opacity-0");
+//             id.classList.remove("block", "opacity-100");
+//         }
+//         else {
+//             id.classList.remove("hidden", "opacity-0");
+//             id.classList.add("block", "opacity-100");
+//             console.log("ok");
+//             break;
+//         }
+//     }
+
+// }
+// next.addEventListener("click", function () {
+//     // chekTab(Choose_tab);
+//     chekTab(Educational_tab);
+//     // console.log(tabs.length);
+
+
+// });

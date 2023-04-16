@@ -28,18 +28,18 @@
             <!-- question -->
             <div class="flex flex-row my-7">
                 <!--  -->
-<!-- modal -->
+                <!-- modal -->
 
-<!-- modal -->
+                <!-- modal -->
                 <!--  -->
                 <div class="basis-full mx-auto text-center">
                     <div class="relative">
                         <ul class="relative flex flex-row  list-none flex-wrap rounded-xl bg-green-500 p-1 items-center"
-                            data-tabs="tabs" role="list">
+                            data-tabs="tabs" role="list" id="tabs">
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="true" role="tab" aria-selected="true"
-                                    aria-controls="Choose">
+                                    aria-controls="Choose" id="Choose-tab">
                                     <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Choose
                                         <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="" role="tab" aria-selected="true"
-                                    aria-controls="Educational-tab">
+                                    aria-controls="Educational" id="Educational-tab">
                                     <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">
                                         Educational
                                         <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
@@ -66,7 +66,8 @@
                             </li>
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
-                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Language">
+                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Language"
+                                    id="Language-tab">
                                     <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Language
                                         <svg class="md:w-5 md:h-5 sm:w-4 sm:h-4 p-0 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +79,8 @@
                             </li>
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
-                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Research">
+                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Skills"
+                                    id="Skills-tab">
                                     <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Skills
                                         <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
                                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +92,8 @@
                             </li>
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
-                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Intended">
+                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Intended"
+                                    id="Intended-tab">
                                     <span class="md:px-5 px-2 md:text-base sm:text-sm">University</span>
                                 </a>
                             </li>
@@ -98,6 +101,7 @@
                         <div data-tab-content="" class="p-5">
                             <div class="block opacity-100" id="Choose" role="tabpanel">
                                 <div class="flex flex-row flex-wrap">
+
                                     <!-- 0 -->
                                     <div id="education" class="basis-full px-4 mb-3">
                                         <label for="countries" class="block mb-2 text-xs font-medium bg-white">Choose
@@ -112,8 +116,9 @@
                                         </select>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="hidden opacity-0" id="Educational-tab" role="tabpanel">
+                            <div class="hidden opacity-0" id="Educational" role="tabpanel">
                                 <div class="flex flex-row  my-7 flex-wrap">
                                     <!-- 1 -->
                                     <div id="q1" class="md:basis-1/2 sm:basis-full px-4 mb-3">
@@ -280,7 +285,7 @@
                                 </div>
                             </div>
 
-                            <div class="hidden opacity-0" id="Research" role="tabpanel">
+                            <div class="hidden opacity-0" id="Skills" role="tabpanel">
                                 <div class="flex flex-row  my-7 flex-wrap">
                                     <!-- 5 -->
                                     <div id="q5" class="md:basis-1/2 sm:basis-full px-4 mb-3">
@@ -351,7 +356,6 @@
                                             <option value="1">No</option>
                                         </select>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="hidden opacity-0" id="Intended" role="tabpanel">
@@ -417,11 +421,41 @@
                                             <button type="button" id="Calculate"
                                                 class=" text-center mx-auto focus:outline-none text-white bg-red-900 focus:ring-0 rounded-lg text-sm   px-5 py-2.5">Calculate</button>
                                         </div>
-                                        <div class="basis-full px-4 mb-3 hidden" id="DivnumRate">
-                                            <div id="numRate"
-                                                class="radial-progress bg-accent text-accent-content border-4 border-accent shadow-2xl"
-                                                style="--size:7rem; ">0%</div>
+                                        <!--  -->
+                                        <div class="relative z-50 hidden" aria-labelledby="modal-title" role="dialog"
+                                            aria-modal="true" id="modal">
+                                            <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity">
+                                            </div>
+
+                                            <div class="fixed inset-0 z-10 overflow-y-auto">
+                                                <div
+                                                    class="flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0">
+                                                    <div
+                                                        class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                                                        <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                                                            <div
+                                                                class="sm:flex sm:items-center mx-auto justify-center items-center">
+                                                                <div class="mt-3 text-center sm:ml-4 sm:mt-0 ">
+                                                                    <div id="numRate"
+                                                                        class="radial-progress bg-accent text-accent-content border-4 border-accent shadow-2xl"
+                                                                        style="--size:7rem; ">0%</div>
+                                                                    <p
+                                                                        class="mt-3 text-center sm:mt-0 text-lg text-green-900">
+                                                                        Your Luck</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 justify-center">
+                                                            <button type="button" id="Close"
+                                                                class="mt-3 inline-flex w-full justify-center rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-gray-50 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-green-900 sm:mt-0 sm:w-auto">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+
+                                        <!--  -->
                                     </div>
                                     <!-- result -->
                                 </div>
@@ -435,8 +469,9 @@
             <!--  -->
             <!-- end -->
         </div>
-        <script src="./js/optionpage.js" defer></script>
-        <script src="./js/tabs.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/optionpage.js"></script>
+        <script src="./js/tabs.js"></script>
 
         <!-- <script src="./js/progressbar.js"></script> -->
 
