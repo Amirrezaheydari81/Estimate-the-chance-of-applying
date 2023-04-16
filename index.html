@@ -13,7 +13,7 @@
 <!-- shadow-lg shadow-gray-400 -->
 
 <body class="mx-auto bg-white pt-5 justify-center items-center self-center">
-    <div class="md:max-w-4xl mx-auto sm:max-w-xs">
+    <div class="md:max-w-4xl md:mx-auto sm:max-w-xs mx-1">
 
         <!-- <div class="w-full bg-gray-400 rounded-full sticky top-0 ">
             <div id="progressbar"
@@ -34,18 +34,13 @@
                 <!--  -->
                 <div class="basis-full mx-auto text-center">
                     <div class="relative">
-                        <ul class="relative flex flex-row  list-none flex-wrap rounded-xl bg-green-500 p-1 items-center"
+                        <ul class="relative flex flex-row list-none flex-wrap rounded-xl bg-green-500 p-1 items-center md:mx-5 mx-2 justify-start"
                             data-tabs="tabs" role="list" id="tabs">
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="true" role="tab" aria-selected="true"
                                     aria-controls="Choose" id="Choose-tab">
-                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Choose
-                                        <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 m-0 inline fill-black"
-                                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">Choose»
                                     </span>
                                 </a>
                             </li>
@@ -53,13 +48,8 @@
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="" role="tab" aria-selected="true"
                                     aria-controls="Educational" id="Educational-tab">
-                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">
-                                        Educational
-                                        <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
-                                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">
+                                        Educational»
 
                                     </span>
                                 </a>
@@ -68,12 +58,7 @@
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Language"
                                     id="Language-tab">
-                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Language
-                                        <svg class="md:w-5 md:h-5 sm:w-4 sm:h-4 p-0 m-0 inline fill-black"
-                                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">Language»
                                     </span>
                                 </a>
                             </li>
@@ -81,20 +66,15 @@
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Skills"
                                     id="Skills-tab">
-                                    <span class="md:px-5 px-2 flex items-center md:text-base sm:text-sm">Skills
-                                        <svg class="md:w-5 sm:h2.5 md:h-5 sm:h2.5 p-0 m-0 inline fill-black"
-                                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M9.5 7L14.5 12L9.5 17" stroke="currentColor" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">Skills»
                                     </span>
                                 </a>
                             </li>
                             <li class="z-30 md:flex-auto text-center sm:basis-1/5">
                                 <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
-                                    data-tab-target="" role="tab" aria-selected="false" aria-controls="Intended"
+                                    data-tab-target="ali" role="tab" aria-selected="false" aria-controls="Intended"
                                     id="Intended-tab">
-                                    <span class="md:px-5 px-2 md:text-base sm:text-sm">University</span>
+                                    <span class="md:px-5 px-0 md:text-base sm:text-sm ">University</span>
                                 </a>
                             </li>
                         </ul>
@@ -103,8 +83,12 @@
                                 <div class="flex flex-row flex-wrap">
 
                                     <!-- 0 -->
-                                    <div id="education" class="basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Choose
+                                    <div id="education" class="basis-full px-4 my-4 items-center">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start ">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q0.png" /></span>
+                                            Choose
                                             your
                                             education</label>
                                         <select
@@ -119,13 +103,16 @@
 
                             </div>
                             <div class="hidden opacity-0" id="Educational" role="tabpanel">
-                                <div class="flex flex-row  my-7 flex-wrap">
+                                <div class="flex flex-row  flex-wrap">
                                     <!-- 1 -->
-                                    <div id="q1" class="md:basis-1/2 sm:basis-full px-4 mb-3">
+                                    <div id="q1" class="md:basis-1/2 basis-full px-4 my-5">
                                         <label for="countries"
-                                            class="block mb-2 text-xs font-medium bg-white">GPA</label>
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q1.png" /></span>GPA(Grade
+                                            point average)</label>
                                         <select
-                                            class=" shadow-lg bg-white  border border-red-900 text-gray-700 text-sm   rounded-lg focus:ring-0 focus:border focus:border-red-900 block w-full p-2.5">
+                                            class="shadow-lg bg-white  border border-red-900 text-gray-700 text-sm   rounded-lg focus:ring-0 focus:border focus:border-red-900 block w-full p-2.5">
 
                                             <option value="0">0-1</option>
                                             <option value="1">1-2</option>
@@ -134,8 +121,12 @@
                                         </select>
                                     </div>
                                     <!-- 4 -->
-                                    <div id="q4" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Ranking
+                                    <div id="q4" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q2.png" /></span>
+                                            Ranking
                                             of your
                                             highschool</label>
                                         <select
@@ -148,8 +139,12 @@
                                         </select>
                                     </div>
                                     <!--10  -->
-                                    <div id="q10" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Field of
+                                    <div id="q10" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q3.png" /></span>
+                                            Field of
                                             study?</label>
                                         <select
                                             class="shadow-lg bg-white  border border-red-900 text-gray-700 text-sm   rounded-lg focus:ring-0 focus:border focus:border-red-900 block w-full p-2.5">
@@ -170,8 +165,12 @@
                                         </select>
                                     </div>
                                     <!-- 11 -->
-                                    <div id="q11" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">How much
+                                    <div id="q11" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q4.png" /></span>
+                                            How much
                                             is the study gap
                                             between your last degree and now?</label>
                                         <select
@@ -183,8 +182,11 @@
                                         </select>
                                     </div>
                                     <!-- 15 -->
-                                    <div id="q15" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">
+                                    <div id="q15" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q5.png" /></span>
                                             Number of references from high school teachers or employers?
                                         </label>
                                         <select
@@ -198,10 +200,14 @@
                                 </div>
                             </div>
                             <div class="hidden opacity-0" id="Language" role="tabpanel">
-                                <div class="flex flex-row  my-7 flex-wrap">
+                                <div class="flex flex-row  flex-wrap">
                                     <!-- 2 -->
-                                    <div id="q2" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">First
+                                    <div id="q2" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q6.png" /></span>
+                                            First
                                             Language test (IELTS,
                                             TOEFL , etc.)</label>
                                         <select
@@ -216,8 +222,12 @@
                                         </select>
                                     </div>
                                     <!--3  -->
-                                    <div id="q3" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Second
+                                    <div id="q3" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q7.png" /></span>
+                                            Second
                                             language test (GRE,
                                             GMAT, etc.)</label>
                                         <select
@@ -232,8 +242,12 @@
                                         </select>
                                     </div>
                                     <!-- 12 -->
-                                    <div id="q12" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">How many
+                                    <div id="q12" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q8.png" /></span>
+                                            How many
                                             years have you
                                             worked ?</label>
                                         <select
@@ -245,8 +259,12 @@
                                         </select>
                                     </div>
                                     <!-- 13 -->
-                                    <div id="q13" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">How much
+                                    <div id="q13" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q9.png" /></span>
+                                            How much
                                             is
                                             your proficiency
                                             in related software?</label>
@@ -258,8 +276,12 @@
                                         </select>
                                     </div>
                                     <!-- 14 -->
-                                    <div id="q14" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">How much
+                                    <div id="q14" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q10.png" /></span>
+                                            How much
                                             is
                                             your skill level
                                             for related laboratory techniques?</label>
@@ -271,8 +293,12 @@
                                         </select>
                                     </div>
                                     <!-- 18 -->
-                                    <div id="q18" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
+                                    <div id="q18" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q11.png" /></span>
+                                            Number of
                                             related academic or
                                             professional certificates?</label>
                                         <select
@@ -286,10 +312,14 @@
                             </div>
 
                             <div class="hidden opacity-0" id="Skills" role="tabpanel">
-                                <div class="flex flex-row  my-7 flex-wrap">
+                                <div class="flex flex-row  flex-wrap">
                                     <!-- 5 -->
-                                    <div id="q5" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
+                                    <div id="q5" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q12.png" /></span>
+                                            Number of
                                             journal papers you
                                             have published or submitted?</label>
                                         <select
@@ -304,8 +334,12 @@
                                         </select>
                                     </div>
                                     <!-- 6 -->
-                                    <div id="q6" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
+                                    <div id="q6" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q13.png" /></span>
+                                            Number of
                                             conference papers
                                             you have published or submitted?</label>
                                         <select
@@ -320,8 +354,12 @@
                                         </select>
                                     </div>
                                     <!-- 7 -->
-                                    <div id="q7" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
+                                    <div id="q7" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q14.png" /></span>
+                                            Number of
                                             citations you have
                                             on your academic papers?</label>
                                         <select
@@ -333,8 +371,12 @@
                                         </select>
                                     </div>
                                     <!-- 8 -->
-                                    <div id="q8" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Number of
+                                    <div id="q8" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q15.png" /></span>
+                                            Number of
                                             patent?</label>
                                         <select
                                             class=" shadow-lg bg-white  border border-red-900 text-gray-700 text-sm   rounded-lg focus:ring-0 focus:border focus:border-red-900 block w-full p-2.5">
@@ -346,8 +388,12 @@
                                         </select>
                                     </div>
                                     <!-- 9 -->
-                                    <div id="q9" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Do you
+                                    <div id="q9" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q16.png" /></span>
+                                            Do you
                                             have any international
                                             achievements?</label>
                                         <select
@@ -359,10 +405,14 @@
                                 </div>
                             </div>
                             <div class="hidden opacity-0" id="Intended" role="tabpanel">
-                                <div class="flex flex-row  my-7 flex-wrap">
+                                <div class="flex flex-row flex-wrap">
                                     <!-- 16 -->
-                                    <div id="q16" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Where is
+                                    <div id="q16" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q17.png" /></span>
+                                            Where is
                                             the university that
                                             you are applying located?</label>
                                         <select
@@ -376,8 +426,12 @@
                                         </select>
                                     </div>
                                     <!-- 17 -->
-                                    <div id="q17" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Ranking
+                                    <div id="q17" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q18.png" /></span>
+                                            Ranking
                                             of the university you
                                             are applying for?</label>
                                         <select
@@ -393,8 +447,12 @@
                                     </div>
 
                                     <!-- 19 -->
-                                    <div id="q19" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Is the
+                                    <div id="q19" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q19.png" /></span>
+                                            Is the
                                             program relevant to
                                             your previous academic degree?</label>
                                         <select
@@ -405,8 +463,12 @@
                                         </select>
                                     </div>
                                     <!-- 20 -->
-                                    <div id="q20" class="md:basis-1/2 sm:basis-full px-4 mb-3">
-                                        <label for="countries" class="block mb-2 text-xs font-medium bg-white">Are you
+                                    <div id="q20" class="md:basis-1/2 basis-full px-4 my-5">
+                                        <label for="countries"
+                                            class="block mb-2 text-xs font-medium bg-white md:text-base text-start">
+                                            <span class="inline-block w-6 h-6 mx-1"><img class=""
+                                                    src="./image/png/q20.png" /></span>
+                                            Are you
                                             repeating your
                                             previous degree?</label>
                                         <select
@@ -416,12 +478,12 @@
                                         </select>
                                     </div>
                                     <!-- submit -->
-                                    <div class="flex flex-row my-7">
+                                    <div class="w-full flex-auto my-7 justify-center text-center">
                                         <div class="basis-full px-4 mb-3">
                                             <button type="button" id="Calculate"
-                                                class=" text-center mx-auto focus:outline-none text-white bg-red-900 focus:ring-0 rounded-lg text-sm   px-5 py-2.5">Calculate</button>
+                                                class="w-full  text-center mx-auto focus:outline-none text-white bg-red-900 focus:ring-0 rounded-lg text-sm  px-5 py-2.5 ">Calculate</button>
                                         </div>
-                                        <!--  -->
+                                        <!-- modal score -->
                                         <div class="relative z-50 hidden" aria-labelledby="modal-title" role="dialog"
                                             aria-modal="true" id="modal">
                                             <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity">

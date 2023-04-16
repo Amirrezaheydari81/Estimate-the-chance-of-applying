@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 module.exports = {
   content: ["**/*.{html,js}"],
   theme: {
@@ -26,6 +26,7 @@ module.exports = {
       'sans': ['Gilroy', 'ui-sans-serif', 'system-ui'],
     },
     extend: {
+
     },
   },
   plugins: [

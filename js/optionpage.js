@@ -414,10 +414,10 @@ calculateBtn.addEventListener("click", function () {
 // let Intended_tab = document.getElementById("Intended");
 // let Skills_tab = document.getElementById("Skills");
 // let tabs = document.querySelectorAll("#tabs li");
-let next = document.getElementById("next");
+// let next = document.getElementById("next");
 // var activeTab = document.querySelector('#tabs li.active').value;
 // console.log(activeTab);
-next.classList.add("hidden", "opacity-0");
+// next.classList.add("hidden", "opacity-0");
 // function chekTab(id) {
 //     for (let i = 0; i < tabs.length; i++) {
 //         let tab = tabs[i];
