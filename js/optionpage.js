@@ -290,6 +290,16 @@ calculateBtn.addEventListener("click", function () {
             3,
         ]);
         console.log("Score " + score.toFixed(1) + "%");
+        let numRateScore = Math.round(score);
+        console.log(numRateScore);
+        numRate.style.cssText = `--value: ${numRateScore}`;
+        numRate.innerText = numRateScore + "%";
+        modal.classList.remove("hidden");
+        modal.classList.add("block");
+        Close.addEventListener("click", function () {
+            modal.classList.remove("block");
+            modal.classList.add("hidden");
+        });
     } else if (education.value == 2) {
         console.log("phD");
         // phD
@@ -404,6 +414,16 @@ calculateBtn.addEventListener("click", function () {
         //
 
         console.log("Score " + score.toFixed(1) + "%");
+        let numRateScore = Math.round(score);
+        console.log(numRateScore);
+        numRate.style.cssText = `--value: ${numRateScore}`;
+        numRate.innerText = numRateScore + "%";
+        modal.classList.remove("hidden");
+        modal.classList.add("block");
+        Close.addEventListener("click", function () {
+            modal.classList.remove("block");
+            modal.classList.add("hidden");
+        });
     } else {
         console.error(Error)
     }

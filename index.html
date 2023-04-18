@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estimate the chance of applying</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-chart.css">
     <!-- <link rel="stylesheet" href="css/full.css"> -->
 </head>
 
@@ -21,9 +22,9 @@
         </div> -->
 
         <img src="favicon.png" class="w-1/6 mx-auto my-2" alt="" srcset="">
-        <h1 class="md:text-4xl text-center text-white bg-red-900 rounded-xl rounded-b-none py-2 sm:text-lg">Estimate
+        <h3 class="md:text-4xl text-center text-white bg-red-900 rounded-xl rounded-b-none py-2 sm:text-lg">Estimate
             the
-            chance of applying</h1>
+            chance of applying</h3>
         <div class="mx-auto shadow-2xl shadow-gray-300 py-5  rounded-xl rounded-t-none">
             <!-- question -->
             <div class="flex flex-row my-7">
@@ -33,45 +34,48 @@
                 <!-- modal -->
                 <!--  -->
                 <div class="basis-full mx-auto text-center">
-                    <div class="relative">
-                        <ul class="relative flex flex-row list-none flex-wrap rounded-xl bg-green-500 p-1 items-center md:mx-5 mx-2 justify-start"
+                    <div class="relative mx-2  md:mx-5">
+                        <ul class="relative flex flex-row list-none flex-wrap rounded-xl bg-green-500 p-1 items-center mx-auto justify-start"
                             data-tabs="tabs" role="list" id="tabs">
-                            <li class="z-30 md:flex-auto text-center sm:basis-1/5">
-                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
+                            <li class="z-30 md:flex-auto sm:basis1/5">
+                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center rounded-lg border-0 bg-inherit px-0 py-1.5 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="true" role="tab" aria-selected="true"
                                     aria-controls="Choose" id="Choose-tab">
-                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">Choose»
+                                    <span
+                                        class="md:px-5 px-0.5 md:mx-0 mx-1 flex items-center md:text-base sm:text-sm">Choose»
                                     </span>
                                 </a>
                             </li>
-                            <li class="z-30 md:flex-auto text-center sm:basis-1/5">
-                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
+                            <li class="z-30 md:flex-auto sm:basis1/5">
+                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center rounded-lg border-0 bg-inherit px-0 py-1.5 transition-all ease-in-out text-xs"
                                     data-tab-target="" active="" role="tab" aria-selected="true"
                                     aria-controls="Educational" id="Educational-tab">
-                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">
+                                    <span class="md:px-5 px-0.5 md:mx-0 mx-1 flex items-center md:text-base sm:text-sm">
                                         Educational»
 
                                     </span>
                                 </a>
                             </li>
-                            <li class="z-30 md:flex-auto text-center sm:basis-1/5">
-                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
+                            <li class="z-30 md:flex-auto sm:basis1/5">
+                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center rounded-lg border-0 bg-inherit px-0 py-1.5 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Language"
                                     id="Language-tab">
-                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">Language»
+                                    <span
+                                        class="md:px-5 px-0.5 md:mx-0 mx-1 flex items-center md:text-base sm:text-sm">Language»
                                     </span>
                                 </a>
                             </li>
-                            <li class="z-30 md:flex-auto text-center sm:basis-1/5">
-                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
+                            <li class="z-30 md:flex-auto sm:basis1/5">
+                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center rounded-lg border-0 bg-inherit px-0 py-1.5 transition-all ease-in-out text-xs"
                                     data-tab-target="" role="tab" aria-selected="false" aria-controls="Skills"
                                     id="Skills-tab">
-                                    <span class="md:px-5 px-0.5 flex items-center md:text-base sm:text-sm">Skills»
+                                    <span
+                                        class="md:px-5 px-0.5 md:mx-0 mx-1 flex items-center md:text-base sm:text-sm">Skills»
                                     </span>
                                 </a>
                             </li>
-                            <li class="z-30 md:flex-auto text-center sm:basis-1/5">
-                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out text-xs"
+                            <li class="z-30 md:flex-auto sm:basis1/5">
+                                <a class="text-black z-30 mb-0 flex w-full cursor-pointer items-center rounded-lg border-0 bg-inherit px-0 py-1.5 transition-all ease-in-out text-xs"
                                     data-tab-target="ali" role="tab" aria-selected="false" aria-controls="Intended"
                                     id="Intended-tab">
                                     <span class="md:px-5 px-0 md:text-base sm:text-sm ">University</span>
@@ -531,7 +535,6 @@
             <!--  -->
             <!-- end -->
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="./js/optionpage.js"></script>
         <script src="./js/tabs.js"></script>
 

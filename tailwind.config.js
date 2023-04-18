@@ -21,6 +21,7 @@ module.exports = {
         500: '#2D897E', //173, 51%, 36%
         200: '#65CDC0',//173, 51%, 60%
       },
+      // inherit:'#555555',
     },
     fontFamily: {
       'sans': ['Gilroy', 'ui-sans-serif', 'system-ui'],
